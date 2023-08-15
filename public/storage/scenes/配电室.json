@@ -1,0 +1,43 @@
+{
+  "v": "7.2.4-dev1",
+  "p": {
+    "background": "rgb(0,0,0)",
+    "autoAdjustIndex": true,
+    "hierarchicalRendering": true
+  },
+  "a": {
+    "sceneNear": 5,
+    "sceneBloom": true,
+    "sceneBloomStrength": 0.16,
+    "sceneBloomRadius": 1.2,
+    "sceneOrthographic": false
+  },
+  "d": [
+    {
+      "c": "ht.Node",
+      "i": 2178,
+      "p": {
+        "position": {
+          "x": -164.4221,
+          "y": 4.15207
+        },
+        "anchorElevation": 0
+      },
+      "s": {
+        "shape3d": "models/配电柜.json"
+      }
+    }
+  ],
+  "scene": {
+    "eye": [
+      -490.15084,
+      2246.26903,
+      2463.69293
+    ],
+    "center": [
+      860.72584,
+      28.31108,
+      -1193.85853
+    ]
+  }
+}

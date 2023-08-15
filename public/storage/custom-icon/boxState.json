@@ -1,0 +1,77 @@
+{
+  "modified": "Fri Nov 19 2021 14:32:25 GMT+0800 (中国标准时间)",
+  "dataBindings": [
+    {
+      "attr": "state",
+      "valueType": "String",
+      "defaultValue": "unknown"
+    }
+  ],
+  "width": 400,
+  "height": 100,
+  "comps": [
+    {
+      "type": "rect",
+      "background": "#17858E",
+      "borderColor": "#979797",
+      "rect": [0, 0, 400, 100]
+    },
+    {
+      "type": "rect",
+      "background": {
+        "func": "__ht__function(data, view) {\nconst state = data.ca('state');\nif (state === 'charged') {\n    return \"#3fcbc8\";\n}\n\nreturn \"#225960\";\n}",
+        "value": "#225960"
+      },
+      "borderColor": "#979797",
+      "rect": [200, 12.33006, 99.44862, 52.13519]
+    },
+    {
+      "type": "oval",
+      "background": {
+        "func": "__ht__function(data, view) {\nconst state = data.ca('state');\nif (state === 'charged') {\n    return \"red\";\n}\n\nreturn \"#1b475f\";\n}",
+        "value": "1b475f"
+      },
+      "borderColor": "#979797",
+      "visible": {
+        "func": "__ht__function(data, view) {\nconst state = data.ca('state');\nif (state === 'unknown') {\n    return false;\n}\nreturn true;\n}"
+      },
+      "rect": [213.8112, 74.71148, 13.56118, 12.95846]
+    },
+    {
+      "type": "rect",
+      "background": {
+        "func": "__ht__function(data, view) {\nconst state = data.ca('state');\nif (state === 'charged') {\n    return \"#72DDe8\";\n}\n\nreturn \"#22757D\";\n}",
+        "value": "#22757D"
+      },
+      "borderColor": "#979797",
+      "visible": {
+        "func": "__ht__function(data, view) {\nconst state = data.ca('state');\nif (state === 'unknown') {\n    return false;\n}\nreturn true;\n}"
+      },
+      "rect": [210.82327, 26.3497, 24.09592, 24.09592]
+    },
+    {
+      "type": "rect",
+      "background": {
+        "func": "__ht__function(data, view) {\nconst state = data.ca('state');\nif (state === 'charged') {\n    return \"#72DDe8\";\n}\n\nreturn \"#22757D\";\n}",
+        "value": "#22757D"
+      },
+      "borderColor": "#979797",
+      "visible": {
+        "func": "__ht__function(data, view) {\nconst state = data.ca('state');\nif (state === 'unknown') {\n    return false;\n}\nreturn true;\n}"
+      },
+      "displayName": "矩形",
+      "rect": [239.75378, 26.3497, 48.87157, 24.09592]
+    },
+    {
+      "type": "text",
+      "text": "未知",
+      "align": "center",
+      "color": "rgb(255,255,255)",
+      "font": "20px Arial Rounded MT Bold",
+      "visible": {
+        "func": "__ht__function(data, view) {\nconst state = data.ca('state');\nif (state === 'unknown') {\n    return true;\n}\nreturn false;\n}"
+      },
+      "rect": [200, 12.33006, 99.44862, 56.35422]
+    }
+  ]
+}

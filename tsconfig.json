@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "jsx": "preserve",
+    /* 基础配置 */
+    "module": "ESNext",
+    "target": "esnext",
+    "lib": ["dom", "esnext"],
+    "removeComments": false,
+    "declaration": true,
+    "sourceMap": true,
+
+    /* 强类型检查配置 */
+    "strict": true,
+    "noImplicitAny": false,
+
+    /* 模块分析配置 */
+    "baseUrl": "./",
+    "rootDir": ".",
+    "outDir": "dist",
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  },
+  "include": ["**/*.ts", "**/*.d.ts", "**/*.tsx"]
+}

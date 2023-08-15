@@ -1,0 +1,57 @@
+[
+  {
+    "title": "智能集控",
+    "name": "mtip-intelligent-centralized-control",
+    "entry": "/mtip-intelligent-centralized-control/"
+  },
+  {
+    "title": "生产管理",
+    "name": "mtip-product-manager",
+    "entry": "/mtip-product-manager/"
+  },
+  {
+    "title": "安全管理",
+    "name": "mtip-safe-manager",
+    "entry": "/mtip-safe-manager/"
+  },
+  {
+    "title": "煤质管理",
+    "name": "mtip-coal-manager",
+    "entry": "/mtip-coal-manager/"
+  },
+  {
+    "title": "机电管理",
+    "name": "mtip-electromechanical-manager",
+    "entry": "/mtip-electromechanical-manager/"
+  },
+  {
+    "title": "技术管理",
+    "name": "mtip-tech-manager",
+    "entry": "/mtip-tech-manager/"
+  },
+  {
+    "title": "经营管理",
+    "name": "mtip-management-manager",
+    "entry": "/mtip-management-manager/"
+  },
+  {
+    "title": "数据中心",
+    "name": "mtip-data-center",
+    "entry": "/mtip-data-center/"
+  },
+  {
+    "title": "系统管理",
+    "name": "mtip-system-manager",
+    "entry": "/mtip-system-manager/"
+  },
+  {
+    "title": "开发者中心",
+    "name": "mtip-developer-center",
+    "entry": "/mtip-developer-center/"
+  },
+  {
+    "title": "租户管理",
+    "name": "mtip-tenant-manager",
+    "entry": "/mtip-tenant-manager/"
+  }
+]
